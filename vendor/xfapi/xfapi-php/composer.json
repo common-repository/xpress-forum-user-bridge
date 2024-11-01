@@ -1,0 +1,29 @@
+{
+    "name": "xfapi/xfapi-php",
+    "description": "A PHP library for XenForo's REST API",
+    "type": "library",
+    "require": {
+        "php": ">=5.6.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2",
+        "phpunit/phpunit": "^5"
+    },
+    "autoload": {
+        "psr-4": {
+            "XFApi\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jake Booher",
+            "email": "jakebooher@protonmail.com"
+        },
+        {
+            "name": "Lukas Wieditz"
+        }
+    ]
+}

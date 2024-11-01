@@ -1,0 +1,21 @@
+{
+    "name": "audentio/thxpress-lite",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/LukasWieditz/xfapi-php"
+        }
+    ],
+    "require": {
+        "xfapi/xfapi-php": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "XPressLite\\": "src"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
